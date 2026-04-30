@@ -1,4 +1,4 @@
-package api.gymmanagment.Enums;
+package api.gymmanagement.enums;
 
 public enum MemberStatus {
     ACTIVE,

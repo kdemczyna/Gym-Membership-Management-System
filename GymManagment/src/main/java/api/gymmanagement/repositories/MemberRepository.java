@@ -1,12 +1,10 @@
-package api.gymmanagment.Repositories;
+package api.gymmanagement.repositories;
 
-import api.gymmanagment.Entities.Gym;
-import api.gymmanagment.Entities.Member;
-import api.gymmanagment.Enums.MemberStatus;
+import api.gymmanagement.entities.Member;
+import api.gymmanagement.enums.MemberStatus;
 import org.springframework.data.jpa.repository.JpaRepository;
 
 import java.util.List;
-import java.util.Optional;
 
 public interface MemberRepository extends JpaRepository<Member, Long> {
 

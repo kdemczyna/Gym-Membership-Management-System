@@ -1,5 +1,5 @@
-package api.gymmanagment.Repositories;
-import api.gymmanagment.Entities.Gym;
+package api.gymmanagement.repositories;
+import api.gymmanagement.entities.Gym;
 import org.springframework.data.jpa.repository.JpaRepository;
 import java.util.Optional;
 

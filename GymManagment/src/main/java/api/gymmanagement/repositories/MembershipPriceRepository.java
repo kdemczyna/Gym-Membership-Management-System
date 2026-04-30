@@ -1,6 +1,6 @@
-package api.gymmanagment.Repositories;
+package api.gymmanagement.repositories;
 
-import api.gymmanagment.Entities.MembershipPrice;
+import api.gymmanagement.entities.MembershipPrice;
 import org.springframework.data.jpa.repository.JpaRepository;
 
 import java.util.List;
