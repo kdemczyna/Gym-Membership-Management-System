@@ -64,4 +64,7 @@ public class Member {
     public void cancel() {
         this.status = MemberStatus.CANCELLED;
     }
+    public String getFullName() {
+        return name + " " + surname;
+    }
 }

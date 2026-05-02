@@ -13,4 +13,6 @@ public interface MemberRepository extends JpaRepository<Member, Long> {
     long countAllByPlanIdAndStatus(Long planId, MemberStatus status);
     List<Member> findAllByPlanId(Long planId);
 
+    boolean existsByEmail(String email);
+
 }
