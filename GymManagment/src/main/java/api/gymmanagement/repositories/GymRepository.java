@@ -7,4 +7,6 @@ public interface GymRepository extends JpaRepository<Gym, Long>{
 
     Optional<Gym> findByName(String name);
     boolean existsByName(String name);
+
+    boolean existsByPhone(String phone);
 }
