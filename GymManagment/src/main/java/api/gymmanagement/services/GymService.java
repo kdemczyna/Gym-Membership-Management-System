@@ -24,7 +24,7 @@ public class GymService {
             throw new ResponseStatusException(HttpStatus.CONFLICT, "Gym with this name already exists");
         }
         if (gymRepository.existsByPhone(request.phone())) {
-            throw new ResponseStatusException(HttpStatus.CONFLICT, "Phone number already existd");
+            throw new ResponseStatusException(HttpStatus.CONFLICT, "Phone number already exists");
         }
         Gym gym = new Gym();
         gym.setName(request.name());
