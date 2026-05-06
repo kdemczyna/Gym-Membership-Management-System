@@ -1,4 +1,4 @@
-package api.gymmanagment.DTOs;
+package api.gymmanagement.DTOs;
 
 import api.gymmanagement.enums.MemberStatus;
 

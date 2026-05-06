@@ -1,7 +1,7 @@
 package api.gymmanagement.controllers;
 
 import api.gymmanagement.DTOs.MemberRequest;
-import api.gymmanagment.DTOs.MemberResponse;
+import api.gymmanagement.DTOs.MemberResponse;
 import api.gymmanagement.services.MemberService;
 import jakarta.validation.Valid;
 import org.springframework.http.HttpStatus;

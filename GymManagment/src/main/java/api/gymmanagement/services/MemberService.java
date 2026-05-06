@@ -1,7 +1,7 @@
 package api.gymmanagement.services;
 
 import api.gymmanagement.DTOs.MemberRequest;
-import api.gymmanagment.DTOs.MemberResponse;
+import api.gymmanagement.DTOs.MemberResponse;
 import api.gymmanagement.entities.Member;
 import api.gymmanagement.entities.MembershipPlan;
 import api.gymmanagement.enums.MemberStatus;
