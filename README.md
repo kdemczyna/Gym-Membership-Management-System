@@ -289,7 +289,10 @@ Common HTTP status codes used:
 The application includes unit tests for all service classes
 To run the tests:
 ```bash
+#Windows
 .\mvnw test
+# Linux
+./mvnw test
 ```
 
 ### What is tested:
