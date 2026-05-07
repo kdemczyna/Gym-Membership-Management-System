@@ -13,6 +13,8 @@ Created as part of **SII - Letnia Akademia Talentów 2026**.
 - H2 In-Memory Database
 - Maven
 - Lombok
+- JUnit 5
+- Mockito
 
 ---
 
