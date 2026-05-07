@@ -32,16 +32,25 @@ Created as part of **SII - Letnia Akademia Talentów 2026**.
 
 **Requirements:** Java 17+, Maven
 
+
 ```bash
 # Clone the repository
 git clone https://github.com/kdemczyna/Gym-Membership-Management-System.git
 cd gym-management
 
+#On Windows
 # Build the project
-mvn clean install
+.\mvnw clean install
 
 # Run the application
-mvn spring-boot:run
+.\mvnw spring-boot:run
+
+#On Linux
+# Build the project
+./mvnw clean install
+
+#Run the application
+./mvnw spring-boot:run
 ```
 
 The app starts on `http://localhost:8080`
@@ -274,3 +283,21 @@ Common HTTP status codes used:
 - Prices stored as `BigDecimal`- no floating point errors
 - Membership start date set automatically on registration and never changed
 - New members always start with ACTIVE status
+
+## Tests
+
+The application includes unit tests for all service classes
+To run the tests:
+```bash
+.\mvnw test
+```
+
+### What is tested:
+
+**GymService** — creating gyms, duplicate name/phone validation, listing gyms, gym not found
+
+**MembershipPlanService** — creating plans, gym not found, listing plans, plan not found
+
+**MemberService** — registering members, plan capacity, duplicate email, 
+cancelling memberships, reactivating memberships, cancelled members don't count towards capacity
+
